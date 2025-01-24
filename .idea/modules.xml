@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Java-809-OCP-Exam-Practice-Questions.iml" filepath="$PROJECT_DIR$/.idea/Java-809-OCP-Exam-Practice-Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pom.xml.iml" filepath="$PROJECT_DIR$/pom.xml.iml" />
     </modules>
   </component>
 </project>
