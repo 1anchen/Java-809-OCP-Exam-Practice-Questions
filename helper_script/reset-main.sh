@@ -12,7 +12,7 @@ rm -rf "$SRC_DIR"
 # Recreate SRC_DIR and add Main.java with default content
 mkdir -p "$SRC_DIR"
 
-cat > "$SRC_DIR/Main.java" <<EOL
+cat > "$SRC_DIR/main/java/Main.java" <<EOL
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");

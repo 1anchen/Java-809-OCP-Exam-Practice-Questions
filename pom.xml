@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ocp.exam.practice.questions</groupId>
-    <artifactId>pom.xml</artifactId>
+    <artifactId>playGround</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
