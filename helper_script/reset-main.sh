@@ -2,7 +2,7 @@
 
 set -e  # Exit immediately if a command exits with a non-zero status.
 
-SRC_DIR="./src"
+SRC_DIR="./src/main/java"
 
 echo "Resetting $SRC_DIR with default Main.java"
 
@@ -12,7 +12,7 @@ rm -rf "$SRC_DIR"
 # Recreate SRC_DIR and add Main.java with default content
 mkdir -p "$SRC_DIR"
 
-cat > "$SRC_DIR/main/java/Main.java" <<EOL
+cat > "$SRC_DIR/Main.java" <<EOL
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
