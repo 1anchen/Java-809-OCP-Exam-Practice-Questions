@@ -12,7 +12,7 @@ PARAM_VALUE="$1"
 
 SRC_DIR="./src"
 TARGET_DIR="./CodeExamples"
-SOURCE_DIR="$TARGET_DIR/$PARAM_VALUE"
+SOURCE_DIR="$TARGET_DIR/$PARAM_VALUE/src"
 
 # Check if the specified directory exists in CodeExamples
 if [ ! -d "$SOURCE_DIR" ]; then
